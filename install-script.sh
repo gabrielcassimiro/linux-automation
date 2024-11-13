@@ -94,6 +94,10 @@ sudo apt update
     echo "Installling podman"
     sudo apt-get -y install podman
 
+    echo "Installing Skype and Postman"
+    sudo snap install skype
+    sudo snap install postman
+
     echo "Installing flatpaks"
     flatpak install flathub io.github.flattool.Warehouse
     flatpak install flathub io.podman_desktop.PodmanDesktop
